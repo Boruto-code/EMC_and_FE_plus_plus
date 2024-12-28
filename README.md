@@ -10,4 +10,4 @@
 推荐 RAM 分配：8 GB
 
 ## Optifine
-此整合包与 Optifine 不兼容。请不要将其添加到包中，因为它与一些模组冲突。本整合包的优化很好，有 Embeddium、FerriteCore 等模组。
+此整合包与 Optifine 不兼容。请不要将其添加到包中，因为它与一些模组冲突。本整合包的优化很好，有 Embeddium、FerriteCore 等模组，保证配置极低也可流畅游玩。
