@@ -1,0 +1,152 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "38F87B3D94CE500C"
+	group: "7FABB2F7E5BB8366"
+	icon: "projectexpansion:final_power_flower"
+	id: "38F87B3D94CE500C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D6664468C821A8C"]
+			id: "4CDF73AC0974CDA3"
+			rewards: [{
+				id: "2F968B22F0424857"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "49510F6F0351DB90"
+				item: "projectexpansion:basic_power_flower"
+				type: "item"
+			}]
+			title: "第一个盆栽"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CDF73AC0974CDA3"]
+			id: "66B78380CE09CCD2"
+			rewards: [{
+				id: "6F1F5E786915E088"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "0391BDC96A338A7E"
+				item: "projectexpansion:final_power_flower"
+				type: "item"
+			}]
+			title: "终极盆栽"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7D6664468C821A8C"]
+			id: "0C6FFEECA202140D"
+			rewards: [{
+				id: "57F7B73D171CB028"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "000F7EC699B3FE68"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:collector_mk1_necklace"
+				}
+				type: "item"
+			}]
+			title: "能量项链"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C6FFEECA202140D"]
+			id: "042EAA697EEB2F1A"
+			rewards: [{
+				id: "3E05E43E06A305A7"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "62D82F9E9305C230"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:collector_mk16_necklace"
+				}
+				type: "item"
+			}]
+			title: "终极项链"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7D6664468C821A8C"]
+			id: "3CCAE24E5FC7A39E"
+			rewards: [{
+				id: "23CC7510E3C78581"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2CD19BA5255692C5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:flower_mk1_charm"
+				}
+				type: "item"
+			}]
+			title: "力量之花"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3CCAE24E5FC7A39E"]
+			id: "56913EC9FDF9367E"
+			rewards: [{
+				id: "354D72E6E8F558A9"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "243DF270513A612C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:flower_mk16_charm"
+				}
+				type: "item"
+			}]
+			title: "终极之花"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["37C1F3631286AC14"]
+			description: [""]
+			id: "7D6664468C821A8C"
+			tasks: [{
+				id: "56616529D6FFB990"
+				title: "开始"
+				type: "checkmark"
+			}]
+			title: "开始"
+			x: -1.5d
+			y: -3.0d
+		}
+	]
+	title: "能量之花"
+}

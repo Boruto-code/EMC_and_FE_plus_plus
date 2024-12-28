@@ -1,0 +1,179 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6F91248666354B4A"
+	group: "67DDB26600B9A092"
+	icon: "bigreactors:insanite_block"
+	id: "6F91248666354B4A"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"37C6CD08D5B91ACD"
+				"538FAA55E8CBD98D"
+			]
+			id: "402702E9640B96ED"
+			rewards: [{
+				id: "50593F1242445B6C"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "7E85AA589D6E8D11"
+				item: "bigreactors:insanite_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["68939468340A6D50"]
+			id: "37C6CD08D5B91ACD"
+			rewards: [{
+				id: "23796C505977070B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2A3D2FF3259CB969"
+				item: "bigreactors:insanite_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1DEDADC18A662999"
+				"191E94277565D3CC"
+			]
+			id: "538FAA55E8CBD98D"
+			rewards: [{
+				id: "3EF35D91700903DC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "358A7E19B9CCD028"
+				item: "bigreactors:inanite_block"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5FE97CD7115BEB0A"]
+			id: "68939468340A6D50"
+			rewards: [{
+				id: "022665244347E5D2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0D4B068FBED996E3"
+				item: "bigreactors:benitoite_crystal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5FE97CD7115BEB0A"]
+			id: "1DEDADC18A662999"
+			rewards: [{
+				id: "3EC628DEFA10DB54"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6C719A376735B399"
+				item: "minecraft:netherite_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6960163E664A5185"
+				"02F239257EB379BB"
+			]
+			id: "191E94277565D3CC"
+			rewards: [{
+				id: "16557CFBE51A80F0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "01E43ABF30AD1955"
+				item: "bigreactors:ridiculite_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5FE97CD7115BEB0A"]
+			id: "6960163E664A5185"
+			rewards: [{
+				id: "6C0C16D9F28C7E93"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3097E1517AE5421A"
+				item: "bigreactors:magentite_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["780BCDA663613C1B"]
+			id: "02F239257EB379BB"
+			rewards: [{
+				id: "6D3A2F506654ED8B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "080A5D8E9F4E0BC1"
+				item: "bigreactors:ludicrite_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FE97CD7115BEB0A"]
+			id: "780BCDA663613C1B"
+			rewards: [{
+				id: "0DF1BCA050E60197"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4F4BBA5F9484BBE5"
+				item: "bigreactors:blutonium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["638FFC602D281264"]
+			description: [""]
+			id: "5FE97CD7115BEB0A"
+			tasks: [{
+				id: "595084C0DDE5BE47"
+				title: "开始"
+				type: "checkmark"
+			}]
+			title: "开始"
+			x: 0.5d
+			y: 0.0d
+		}
+	]
+	title: "极限狂热"
+}

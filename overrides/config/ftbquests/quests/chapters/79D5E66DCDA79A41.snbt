@@ -1,0 +1,490 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "79D5E66DCDA79A41"
+	group: "7FABB2F7E5BB8366"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: { }
+		}
+		id: "projecte:philosophers_stone"
+	}
+	id: "79D5E66DCDA79A41"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1E1412AFBFF83E76"]
+			id: "65D54CDD1DE23E6D"
+			rewards: [{
+				id: "1645B426DF05A153"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "4ABDD1A8C6AB2308"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+				}
+				type: "item"
+			}]
+			title: "炼金之始"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["65D54CDD1DE23E6D"]
+			id: "598E8575CF96533C"
+			rewards: [{
+				id: "304F31BD665BC8A2"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "625ED5F036D89A4A"
+				item: "projecte:transmutation_table"
+				type: "item"
+			}]
+			title: "游戏结束"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["598E8575CF96533C"]
+			id: "75767D2A0E995BBC"
+			rewards: [{
+				id: "707AA5EA7F14BE8D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "23970DD6B1507EF2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:repair_talisman"
+				}
+				type: "item"
+			}]
+			title: "修补大师"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"598E8575CF96533C"
+				"462516E55EF495CD"
+			]
+			id: "33DB551240D0055B"
+			rewards: [{
+				id: "523F29F90462944F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6B7AAEBD18C13ADE"
+				item: "projecte:nova_cataclysm"
+				type: "item"
+			}]
+			title: "虚假的灾难"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["33DB551240D0055B"]
+			id: "381C3C1D06E4AF58"
+			rewards: [{
+				id: "3121655F65D0B5C4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "28A2B6C180EB0F21"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:destruction_catalyst"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["598E8575CF96533C"]
+			id: "13AB4C5ABFE8C702"
+			rewards: [{
+				id: "7BE0CC3BD1653BB7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4BDD7D5906C61D55"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_ein"
+				}
+				type: "item"
+			}]
+			title: "能量存储"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["13AB4C5ABFE8C702"]
+			id: "7EBFF8002D25B7D3"
+			rewards: [{
+				id: "3E0D1676E5DF549F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "35616BBF70B79697"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:gem_of_eternal_density"
+				}
+				type: "item"
+			}]
+			title: "EMC转换"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["13AB4C5ABFE8C702"]
+			id: "1822C26DD8F950B8"
+			rewards: [{
+				id: "4CDDA2F1F543D614"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "04183E25E7DE30D0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:black_hole_band"
+				}
+				type: "item"
+			}]
+			title: "远程吸收"
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["13AB4C5ABFE8C702"]
+			id: "57A2CA81B8839A8E"
+			rewards: [{
+				id: "736567882E48E2C0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5852F357D1EBCC0A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:swiftwolf_rending_gale"
+				}
+				type: "item"
+			}]
+			title: "飞行模式"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["57A2CA81B8839A8E"]
+			id: "18CF0DC64FBC4BC2"
+			rewards: [{
+				id: "43B2DF4141C71F5F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2ACF0A87BEE48F9E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:hyperkinetic_lens"
+				}
+				type: "item"
+			}]
+			title: "360度轰炸"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["18CF0DC64FBC4BC2"]
+			id: "6F52E458D90B157C"
+			rewards: [{
+				id: "1A7E0E2A548794BE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "795B2A705891D00A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:life_stone"
+				}
+				type: "item"
+			}]
+			title: "生命恢复"
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"18CF0DC64FBC4BC2"
+				"7EBFF8002D25B7D3"
+			]
+			id: "04EC84EEDF753667"
+			rewards: [{
+				id: "684D46C5246867D9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "544C8B577C4DE056"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:void_ring"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"04EC84EEDF753667"
+				"381C3C1D06E4AF58"
+			]
+			id: "540B35801D6D99A4"
+			rewards: [{
+				id: "67B83ABDA7A2E2C5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3D6A1EC883B5BD12"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:catalytic_lens"
+				}
+				type: "item"
+			}]
+			title: "超级宝珠"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["540B35801D6D99A4"]
+			id: "63FAF6BEB61ED213"
+			rewards: [{
+				id: "2E36BD0B2D108AE4"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "542FA1DC3BADF5C7"
+				item: "projecte:transmutation_tablet"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["63FAF6BEB61ED213"]
+			id: "2945E185701E9794"
+			rewards: [{
+				id: "7FFCED0699F6D4CE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "173C9E7FDA9046A6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_omega"
+				}
+				type: "item"
+			}]
+			title: "大容量电池"
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["63FAF6BEB61ED213"]
+			id: "6C76E654E139134D"
+			rewards: [{
+				id: "288AF73A8CFA2BF7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A9A28A72A4AA1C7"
+				item: "projectexpansion:infinite_fuel"
+				type: "item"
+			}]
+			title: "无尽燃料"
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6C76E654E139134D"]
+			id: "7102C2A1E728204F"
+			rewards: [{
+				id: "2FED906B17B7525F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "76FB7D53F1DC6FB3"
+				item: "projecte:rm_furnace"
+				type: "item"
+			}]
+			title: "极速熔炼"
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2945E185701E9794"]
+			id: "11E36D8A5BF07ECC"
+			rewards: [{
+				id: "277AD60EE64FE19C"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					id: "5932FAFA676541D9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_morning_star"
+					}
+					type: "item"
+				}
+				{
+					id: "56E06E8831C99B32"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_katar"
+					}
+					type: "item"
+				}
+			]
+			title: "多功能工具"
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"11E36D8A5BF07ECC"
+				"6F52E458D90B157C"
+			]
+			id: "37C1F3631286AC14"
+			rewards: [{
+				id: "5A8A2598316CEC32"
+				type: "xp"
+				xp: 4000
+			}]
+			tasks: [
+				{
+					id: "1B6E6B662E625DD7"
+					item: "projecte:gem_helmet"
+					type: "item"
+				}
+				{
+					id: "058A06A3547E9DDB"
+					item: "projecte:gem_chestplate"
+					type: "item"
+				}
+				{
+					id: "3811CF96F944EA6D"
+					item: "projecte:gem_leggings"
+					type: "item"
+				}
+				{
+					id: "2996CE57A5F5C322"
+					item: "projecte:gem_boots"
+					type: "item"
+				}
+			]
+			title: "万用装甲"
+			x: 2.5d
+			y: 11.5d
+		}
+		{
+			id: "462516E55EF495CD"
+			rewards: [{
+				id: "2BB1BD3680B5C279"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "264F316F3FEF4F5F"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			title: "时代少年团:)"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			description: [""]
+			id: "1E1412AFBFF83E76"
+			subtitle: "欢迎来到 EMC and FE ++ ！"
+			tasks: [{
+				id: "3A5105BE13A64CB4"
+				title: "开始"
+				type: "checkmark"
+			}]
+			title: "开始"
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "炼金术士"
+}

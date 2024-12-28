@@ -1,0 +1,135 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08AD58C5144B7BB4"
+	group: "7FABB2F7E5BB8366"
+	icon: "draconicevolution:dragon_heart"
+	id: "08AD58C5144B7BB4"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7C3BFAE011CB495E"]
+			id: "2A3A68C5DB4CDFA7"
+			rewards: [{
+				id: "7BCBACFB448C53D3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "47C143327396990A"
+				item: "draconicevolution:dragon_heart"
+				type: "item"
+			}]
+			title: "心脏"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2A3A68C5DB4CDFA7"]
+			id: "3E0A49797A28E9EF"
+			rewards: [{
+				id: "7B925761325E42BE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2EFDFAA25ADEAFC2"
+					item: "draconicevolution:crafting_core"
+					type: "item"
+				}
+				{
+					id: "5E8F06855376A74C"
+					item: "draconicevolution:basic_crafting_injector"
+					type: "item"
+				}
+			]
+			title: "聚合"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3E0A49797A28E9EF"]
+			id: "5BD9590521E51E46"
+			rewards: [{
+				id: "37687432167FF61F"
+				type: "xp"
+				xp: 1500
+			}]
+			tasks: [
+				{
+					id: "4EACD5DA9F341B82"
+					item: "draconicevolution:basic_io_crystal"
+					type: "item"
+				}
+				{
+					id: "6EA5B5F646A56EF0"
+					item: "draconicevolution:crystal_binder"
+					type: "item"
+				}
+				{
+					id: "7CC6A9178D4FA19D"
+					item: "draconicevolution:energy_core"
+					type: "item"
+				}
+				{
+					id: "02835B83A45A912D"
+					item: "draconicevolution:energy_pylon"
+					type: "item"
+				}
+			]
+			title: "电力"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5BD9590521E51E46"]
+			id: "3F4C17A403BD2A33"
+			rewards: [{
+				id: "60281097F438D2F8"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "555E4FC75BE78FBC"
+				item: "draconicevolution:chaos_shard"
+				type: "item"
+			}]
+			title: "混沌"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3F4C17A403BD2A33"]
+			id: "37755812257ABF4E"
+			rewards: [{
+				id: "592D82826D1F7717"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "61789F64BB355270"
+				item: "draconicevolution:reactor_core"
+				type: "item"
+			}]
+			title: "终极爆炸"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["511C370E08307065"]
+			description: [""]
+			id: "7C3BFAE011CB495E"
+			tasks: [{
+				id: "23A53E51E01A773D"
+				title: "开始"
+				type: "checkmark"
+			}]
+			title: "开始"
+			x: 0.0d
+			y: -2.5d
+		}
+	]
+	title: "传说之龙"
+}

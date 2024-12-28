@@ -1,0 +1,78 @@
+<recipetype:create:mechanical_crafting>.addRecipe(
+    "creative_fluid_tank_recipe",
+    <item:create:creative_fluid_tank>,
+    [
+        [<item:rainbowcompound:netherstar_ingot>,<item:create_sa:large_filling_tank>,<item:create_sa:large_filling_tank>,<item:create:mechanical_pump>,<item:create_sa:large_filling_tank>,<item:create_sa:large_filling_tank>,<item:rainbowcompound:netherstar_ingot>],
+        [<item:create_sa:large_filling_tank>,<item:create:fluid_tank>,<item:create:fluid_tank>,<item:mekanism:structural_glass>,<item:create:fluid_tank>,<item:create:fluid_tank>,<item:create_sa:large_filling_tank>],
+        [<item:create_sa:large_filling_tank>,<item:create:fluid_tank>,<item:create:fluid_tank>,<item:mekanism:structural_glass>,<item:create:fluid_tank>,<item:create:fluid_tank>,<item:create_sa:large_filling_tank>],
+        [<item:create_sa:large_filling_tank>,<item:mekanism:structural_glass>,<item:mekanism:structural_glass>,<item:create:chromatic_compound>,<item:mekanism:structural_glass>,<item:mekanism:structural_glass>,<item:create_sa:large_filling_tank>],
+        [<item:create_sa:large_filling_tank>,<item:create:fluid_tank>,<item:create:fluid_tank>,<item:mekanism:structural_glass>,<item:create:fluid_tank>,<item:create:fluid_tank>,<item:create_sa:large_filling_tank>],
+        [<item:create_sa:large_filling_tank>,<item:create:fluid_tank>,<item:create:fluid_tank>,<item:mekanism:structural_glass>,<item:create:fluid_tank>,<item:create:fluid_tank>,<item:create_sa:large_filling_tank>],
+        [<item:rainbowcompound:netherstar_ingot>,<item:create_sa:large_filling_tank>,<item:create_sa:large_filling_tank>,<item:create:mechanical_pump>,<item:create_sa:large_filling_tank>,<item:create_sa:large_filling_tank>,<item:rainbowcompound:netherstar_ingot>]
+    ]
+);
+<recipetype:create:mechanical_crafting>.addRecipe(
+    "creative_energy_recipe",
+    <item:createaddition:creative_energy>,
+    [
+        [<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>],
+        [<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>],
+        [<item:avaritia:infinity>,<item:avaritia:infinity>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:createaddition:alternator>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:avaritia:infinity>,<item:avaritia:infinity>],
+        [<item:avaritia:infinity>,<item:avaritia:infinity>,<item:rainbowcompound:netherstar_ingot>,<item:create:white_sail>,<item:create:white_sail>,<item:create:white_sail>,<item:rainbowcompound:netherstar_ingot>,<item:avaritia:infinity>,<item:avaritia:infinity>],
+        [<item:avaritia:infinity>,<item:avaritia:infinity>,<item:rainbowcompound:netherstar_ingot>,<item:create:white_sail>,<item:create:windmill_bearing>,<item:create:white_sail>,<item:rainbowcompound:netherstar_ingot>,<item:avaritia:infinity>,<item:avaritia:infinity>],
+        [<item:avaritia:infinity>,<item:avaritia:infinity>,<item:rainbowcompound:netherstar_ingot>,<item:create:white_sail>,<item:create:white_sail>,<item:create:white_sail>,<item:rainbowcompound:netherstar_ingot>,<item:avaritia:infinity>,<item:avaritia:infinity>],
+        [<item:avaritia:infinity>,<item:avaritia:infinity>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:avaritia:infinity>,<item:avaritia:infinity>],
+        [<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>],
+        [<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>]
+    ]
+);
+<recipetype:create:filling>.addRecipe(
+    "creative_blaze_cake_recipe",
+    <item:create:creative_blaze_cake>,
+    <item:create:creative_fluid_tank>,
+    <fluid:create_enchantment_industry:hyper_experience> * 10000
+);
+<recipetype:create:mechanical_crafting>.addRecipe(
+    "creative_motor_recipe",
+    <item:create:creative_motor>,
+    [
+        [<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>],
+        [<item:rainbowcompound:netherstar_ingot>,<item:avaritia:infinity>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:create:shaft>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:avaritia:infinity>,<item:rainbowcompound:netherstar_ingot>],
+        [<item:rainbowcompound:netherstar_ingot>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:createaddition:creative_energy>,<item:createaddition:creative_energy>,<item:createaddition:creative_energy>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:rainbowcompound:netherstar_ingot>],
+        [<item:rainbowcompound:netherstar_ingot>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:createaddition:creative_energy>,<item:createaddition:electric_motor>,<item:createaddition:creative_energy>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:rainbowcompound:netherstar_ingot>],
+        [<item:rainbowcompound:netherstar_ingot>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:createaddition:creative_energy>,<item:createaddition:creative_energy>,<item:createaddition:creative_energy>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:rainbowcompound:netherstar_ingot>],
+        [<item:rainbowcompound:netherstar_ingot>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:avaritia:infinity>,<item:rainbowcompound:netherstar_ingot>],
+        [<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>]
+    ]
+);
+<recipetype:create:mechanical_crafting>.addRecipe(
+    "creative_crate_recipe",
+    <item:create:creative_crate>,
+    [
+        [<item:create:experience_block>,<item:create:experience_block>,<item:create:experience_block>,<item:create:experience_block>,<item:create:experience_block>,<item:create:experience_block>,<item:create:experience_block>,<item:create:experience_block>,<item:create:experience_block>],
+        [<item:create:experience_block>,<item:mekanism:pellet_antimatter>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:mekanism:pellet_antimatter>,<item:create:experience_block>],
+        [<item:create:experience_block>,<item:mekanism:pellet_antimatter>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:mekanism:pellet_antimatter>,<item:create:experience_block>],
+        [<item:create:experience_block>,<item:mekanism:pellet_antimatter>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:rainbowcompound:netherstar_ingot>,<item:mekanism:pellet_antimatter>,<item:create:experience_block>],
+        [<item:create:experience_block>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:create:chromatic_compound>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:create:experience_block>],
+        [<item:create:experience_block>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:create:experience_block>],
+        [<item:create:experience_block>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:create:experience_block>],
+        [<item:create:experience_block>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:create:experience_block>],
+        [<item:create:experience_block>,<item:create:experience_block>,<item:create:experience_block>,<item:create:experience_block>,<item:create:experience_block>,<item:create:experience_block>,<item:create:experience_block>,<item:create:experience_block>,<item:create:experience_block>]
+    ]
+);
+mods.avaritia.CraftingTable.addShaped(
+    "tome_recipe",
+    4,
+    <item:projecte:tome>,
+    [
+        [<item:projectexpansion:compact_sun>,<item:projectexpansion:gargantuan_star_omega>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:create:creative_blaze_cake>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:projectexpansion:gargantuan_star_omega>,<item:projectexpansion:compact_sun>],
+        [<item:projectexpansion:gargantuan_star_omega>,<item:create:creative_fluid_tank>,<item:bigreactors:insanite_block>,<item:bigreactors:insanite_block>,<item:bigreactors:insanite_block>,<item:bigreactors:insanite_block>,<item:bigreactors:insanite_block>,<item:create:creative_fluid_tank>,<item:projectexpansion:gargantuan_star_omega>],
+        [<item:mekanism:pellet_antimatter>,<item:bigreactors:insanite_block>,<item:refinedstorage:creative_controller>,<item:mekanism:creative_bin>,<item:mekanism:creative_chemical_tank>,<item:mekanism:creative_bin>,<item:mekanism:creative_energy_cube>,<item:bigreactors:insanite_block>,<item:mekanism:pellet_antimatter>],
+        [<item:mekanism:pellet_antimatter>,<item:bigreactors:insanite_block>,<item:rainbowcompound:netherstar_ingot>,<item:botania:creative_pool>,<item:draconicevolution:creative_capacitor>,<item:botania:creative_pool>,<item:rainbowcompound:netherstar_ingot>,<item:bigreactors:insanite_block>,<item:mekanism:pellet_antimatter>],
+        [<item:create:creative_motor>,<item:createaddition:creative_energy>,<item:mekanism:creative_fluid_tank>,<item:draconicevolution:creative_capacitor>,<item:draconicevolution:creative_op_capacitor>,<item:draconicevolution:creative_capacitor>,<item:mekanism:creative_fluid_tank>,<item:createaddition:creative_energy>,<item:create:creative_motor>],
+        [<item:mekanism:pellet_antimatter>,<item:bigreactors:insanite_block>,<item:rainbowcompound:netherstar_ingot>,<item:botania:creative_pool>,<item:draconicevolution:creative_capacitor>,<item:botania:creative_pool>,<item:rainbowcompound:netherstar_ingot>,<item:bigreactors:insanite_block>,<item:mekanism:pellet_antimatter>],
+        [<item:mekanism:pellet_antimatter>,<item:bigreactors:insanite_block>,<item:refinedstorage:creative_controller>,<item:mekanism:creative_bin>,<item:mekanism:creative_chemical_tank>,<item:mekanism:creative_bin>,<item:mekanism:creative_energy_cube>,<item:bigreactors:insanite_block>,<item:mekanism:pellet_antimatter>],
+        [<item:projectexpansion:gargantuan_star_omega>,<item:create:creative_fluid_tank>,<item:bigreactors:insanite_block>,<item:bigreactors:insanite_block>,<item:bigreactors:insanite_block>,<item:bigreactors:insanite_block>,<item:bigreactors:insanite_block>,<item:create:creative_fluid_tank>,<item:projectexpansion:gargantuan_star_omega>],
+        [<item:projectexpansion:compact_sun>,<item:projectexpansion:gargantuan_star_omega>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:create:creative_blaze_cake>,<item:mekanism:pellet_antimatter>,<item:mekanism:pellet_antimatter>,<item:projectexpansion:gargantuan_star_omega>,<item:projectexpansion:compact_sun>]
+    ]
+);

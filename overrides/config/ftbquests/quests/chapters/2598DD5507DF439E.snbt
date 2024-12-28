@@ -1,0 +1,76 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2598DD5507DF439E"
+	group: "7FABB2F7E5BB8366"
+	icon: "bigreactors:yellorium_ingot"
+	id: "2598DD5507DF439E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1C2D1DB5DF72EDBE"]
+			id: "29C57ACFAF3F00CA"
+			rewards: [{
+				id: "46B038F9A0FD02C3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "71BA15A7ED47D04E"
+				item: "bigreactors:reinforced_reactorcontroller"
+				type: "item"
+			}]
+			title: "聚变"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["29C57ACFAF3F00CA"]
+			id: "638FFC602D281264"
+			rewards: [{
+				id: "5A7B7EF909177F03"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "682ACBEBBA52749D"
+				item: "bigreactors:cyanite_ingot"
+				type: "item"
+			}]
+			title: "衰变"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["638FFC602D281264"]
+			id: "511C370E08307065"
+			rewards: [{
+				id: "2094EAD0EFF0F4F6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "297390EA18DB5B32"
+				item: "bigreactors:reinforced_turbinecontroller"
+				type: "item"
+			}]
+			title: "转动"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			description: [""]
+			id: "1C2D1DB5DF72EDBE"
+			tasks: [{
+				id: "704D8B5F00BDF6F4"
+				title: "开始"
+				type: "checkmark"
+			}]
+			title: "开始"
+			x: -0.5d
+			y: -2.5d
+		}
+	]
+	title: "永无极限"
+}

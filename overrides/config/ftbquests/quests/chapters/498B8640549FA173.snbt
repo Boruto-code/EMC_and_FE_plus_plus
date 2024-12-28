@@ -1,0 +1,137 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "498B8640549FA173"
+	group: "67DDB26600B9A092"
+	icon: "create:wrench"
+	id: "498B8640549FA173"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"76733FD7A9E6E143"
+				"2BDB865F798A87AD"
+			]
+			id: "5FD206968EBE5B53"
+			rewards: [{
+				id: "025B3D7E58F4FEA1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "504782C1FEFCC542"
+				item: "rainbowcompound:rainbow_compound"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["013182072CCEEDAD"]
+			id: "2BDB865F798A87AD"
+			rewards: [{
+				id: "5A7B3187156C3B56"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "381BF8745FCDDF9F"
+				item: "create:refined_radiance"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["013182072CCEEDAD"]
+			id: "76733FD7A9E6E143"
+			rewards: [{
+				id: "56C1DB011049576B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7A541B70E8E88365"
+				item: "create:shadow_steel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			description: [""]
+			id: "1B06EFB27AA8F655"
+			tasks: [{
+				id: "756815D5F86A73C5"
+				title: "开始"
+				type: "checkmark"
+			}]
+			title: "开始"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2EFD9F56458BAA40"
+				"7220E925791AD434"
+				"446633B5E23959C6"
+			]
+			id: "013182072CCEEDAD"
+			rewards: [{
+				id: "04669C5819C3C3B2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7CDA2103489B2B34"
+				item: "create:chromatic_compound"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			id: "7220E925791AD434"
+			rewards: [{
+				id: "6245C42DC92BE863"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "698535A66BD2778B"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "2EFD9F56458BAA40"
+			tasks: [{
+				id: "2DFA21D0E392DC94"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1B06EFB27AA8F655"]
+			id: "446633B5E23959C6"
+			rewards: [{
+				id: "12D537B251CA670E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4FD6FDDC40CF4E4B"
+				item: "rainbowcompound:strange_colored_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+	]
+	title: "机械动力"
+}

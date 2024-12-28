@@ -1,0 +1,255 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "54883983EB5A57E1"
+	group: "01324BB1CAAE5991"
+	icon: "draconicevolution:creative_op_capacitor"
+	id: "54883983EB5A57E1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6B6E492743467C4C"]
+			id: "0B4C167B970E2264"
+			rewards: [{
+				id: "5136D37C16BCE214"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				id: "6820261FF5A23497"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									-473072686
+									-1006092015
+									-1139241351
+									-1667556921
+								]
+							}
+						}
+					}
+					id: "draconicevolution:creative_capacitor"
+				}
+				type: "item"
+			}]
+			title: "超大电容"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0B4C167B970E2264"]
+			id: "4579602118FA8B4D"
+			rewards: [{
+				id: "1E72985E83B44E57"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
+			tasks: [{
+				id: "71EBCB0137EB1960"
+				item: "draconicevolution:creative_op_capacitor"
+				type: "item"
+			}]
+			title: "无尽"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4579602118FA8B4D"
+				"402702E9640B96ED"
+				"5A8F3CC9381DACCE"
+				"6FDE04F9ADC1C8B1"
+				"1ED29CBCFAE0E201"
+				"245B51151EFBD869"
+				"4157C0BA0624FAAD"
+			]
+			id: "6277BF39E3596B84"
+			rewards: [{
+				id: "0313C2ED41407D57"
+				type: "xp_levels"
+				xp_levels: 114
+			}]
+			tasks: [{
+				id: "2E5B80F6A6B7AF13"
+				item: "projecte:tome"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6277BF39E3596B84"]
+			id: "3B5CB9E536E676D4"
+			tasks: [{
+				id: "56612494E98AE4ED"
+				title: "感谢游玩！"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "6B6E492743467C4C"
+			tasks: [{
+				id: "171905FF5AC3269D"
+				title: "创造模式"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"0C90086822AA7600"
+				"5B377D7DC67167E3"
+				"476AF23331768C95"
+				"6B6E492743467C4C"
+			]
+			id: "1ED29CBCFAE0E201"
+			rewards: [{
+				id: "17DE6FD464834532"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "20DC27C58EF227CE"
+				item: "botania:creative_pool"
+				type: "item"
+			}]
+			title: "植物魔法"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6B6E492743467C4C"]
+			id: "6FDE04F9ADC1C8B1"
+			rewards: [{
+				id: "03353ACEDC7C5DEB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5400A31DADA249D5"
+					item: "refinedstorage:creative_wireless_grid"
+					type: "item"
+				}
+				{
+					id: "445D6C15585EB1AE"
+					item: "refinedstorage:creative_storage_disk"
+					type: "item"
+				}
+				{
+					id: "37FFD9D0706F9D98"
+					item: "refinedstorage:creative_fluid_storage_disk"
+					type: "item"
+				}
+				{
+					id: "7EB7BEC9630145E9"
+					item: "refinedstorage:creative_controller"
+					type: "item"
+				}
+			]
+			title: "RS"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6B6E492743467C4C"
+				"5FD206968EBE5B53"
+			]
+			id: "245B51151EFBD869"
+			rewards: [{
+				id: "57603FEA03A03241"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "27B5EB748593416A"
+				item: "createaddition:creative_energy"
+				type: "item"
+			}]
+			title: "机械动力"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6B6E492743467C4C"
+				"6EC6E8E756B11980"
+				"061E0D6D6B88BF3A"
+				"015938E65C7E13D9"
+				"2C6582D0D831A79E"
+			]
+			id: "5A8F3CC9381DACCE"
+			tasks: [
+				{
+					id: "05DA362A3A1DB99A"
+					item: "mekanism:creative_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "6A549163E4D75E9A"
+					item: "mekanism:creative_chemical_tank"
+					type: "item"
+				}
+				{
+					id: "083EA3DAC389DFEB"
+					item: {
+						Count: 1
+						id: "mekanism:creative_energy_cube"
+						tag: {
+							mekData: {
+								componentConfig: {
+									config0: {
+										side0: 1
+										side1: 1
+										side2: 1
+										side3: 1
+										side4: 1
+										side5: 1
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1365606B03697BEF"
+					item: "mekanism:creative_bin"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -3.0d
+		}
+	]
+	title: "终局"
+}

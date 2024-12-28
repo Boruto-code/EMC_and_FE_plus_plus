@@ -1,0 +1,225 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "47AC8201A00D1D91"
+	group: "7FABB2F7E5BB8366"
+	icon: "avaritia:infinity_helmet"
+	id: "47AC8201A00D1D91"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2ED12DE3CC7E0E66"]
+			id: "0E4CDB42ACF9B201"
+			rewards: [{
+				id: "14F923D88F5CA54A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3DA93FBB137E9A7B"
+				item: "avaritia:extreme_crafting_table"
+				type: "item"
+			}]
+			title: "超大配方"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0E4CDB42ACF9B201"]
+			id: "686ABE8931118D03"
+			rewards: [{
+				id: "16881193FE12939E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2E82CEEA22CA3B5A"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "致密物质"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["686ABE8931118D03"]
+			id: "3B67CC45AC5B382D"
+			rewards: [{
+				id: "148653610CB6BD79"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6B744BEB465343C2"
+				item: "avaritia:densest_neutron_collector"
+				type: "item"
+			}]
+			title: "无用之物？"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["686ABE8931118D03"]
+			id: "159F74D12C31E46B"
+			rewards: [{
+				id: "1AFBFE0B94DDCC15"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "06C966A2B1159718"
+				item: "avaritia:neutron_compressor"
+				type: "item"
+			}]
+			title: "超级液压机"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["159F74D12C31E46B"]
+			id: "3B9F90ECAA2D07B0"
+			rewards: [{
+				id: "0B48621E5ECF2132"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "01289F5D409BFE59"
+				item: {
+					Count: 1
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:iron"
+					}
+				}
+				type: "item"
+			}]
+			title: "铁精"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B9F90ECAA2D07B0"]
+			id: "214A245E88773B64"
+			rewards: [{
+				id: "2A27BF32B3DA86D9"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					id: "5126D3E0931DDCA9"
+					item: "avaritia:ultimate_stew"
+					type: "item"
+				}
+				{
+					id: "50B4E9C6E7A56DE7"
+					item: "avaritia:cosmic_meatballs"
+					type: "item"
+				}
+			]
+			title: "吃不下了"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["214A245E88773B64"]
+			id: "1D5A6AEC11018451"
+			rewards: [{
+				id: "2743A38A14AD2940"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5D3E313D3AE65D72"
+				item: "avaritia:infinity_catalyst"
+				type: "item"
+			}]
+			title: "星光"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1D5A6AEC11018451"]
+			id: "4E05660FBFB41795"
+			rewards: [{
+				id: "3544179F3187A3BD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "65A949C183310F34"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			title: "闪光"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4E05660FBFB41795"]
+			id: "7038DB9B92563C7B"
+			rewards: [{
+				id: "1067FE8F4705C369"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "60AFF8E46AA4D05C"
+				item: "avaritia:infinity_sword"
+				type: "item"
+			}]
+			title: "秒杀"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7038DB9B92563C7B"]
+			id: "18B52D7A4FA92A00"
+			rewards: [{
+				id: "6534AEB30ECFC11A"
+				type: "xp"
+				xp: 4000
+			}]
+			tasks: [
+				{
+					id: "2483EF25FC2368B5"
+					item: "avaritia:infinity_helmet"
+					type: "item"
+				}
+				{
+					id: "4DFFC4A0B19C3BC4"
+					item: "avaritia:infinity_chestplate"
+					type: "item"
+				}
+				{
+					id: "3BA3A78DA03CB7B8"
+					item: "avaritia:infinity_pants"
+					type: "item"
+				}
+				{
+					id: "2A59424153181BBA"
+					item: "avaritia:infinity_boots"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["37C1F3631286AC14"]
+			description: [""]
+			id: "2ED12DE3CC7E0E66"
+			tasks: [{
+				id: "1C1701ED7D058A5F"
+				title: "开始"
+				type: "checkmark"
+			}]
+			title: "开始"
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	title: "无尽贪婪"
+}

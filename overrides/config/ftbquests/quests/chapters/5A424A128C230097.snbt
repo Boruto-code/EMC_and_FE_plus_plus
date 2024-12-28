@@ -1,0 +1,181 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5A424A128C230097"
+	group: "67DDB26600B9A092"
+	icon: "mekanism:pellet_antimatter"
+	id: "5A424A128C230097"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["740A27570E7743AD"]
+			id: "6EC6E8E756B11980"
+			rewards: [{
+				id: "5080754BD4DA8A23"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5C407E6DB152257A"
+				item: "mekanism:ultimate_fluid_tank"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["740A27570E7743AD"]
+			id: "015938E65C7E13D9"
+			tasks: [{
+				id: "4FD0D1E83ECA5AE0"
+				item: "mekanism:ultimate_chemical_tank"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["740A27570E7743AD"]
+			id: "061E0D6D6B88BF3A"
+			rewards: [{
+				id: "2ECF6E326DD981FE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "69E1C6DB267F1633"
+				item: "mekanism:ultimate_bin"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["740A27570E7743AD"]
+			id: "2C6582D0D831A79E"
+			tasks: [{
+				id: "4B3DB8D090609E0C"
+				item: "mekanism:ultimate_energy_cube"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4AC58ECACF584B2C"]
+			id: "4157C0BA0624FAAD"
+			rewards: [{
+				id: "757A0B6152369E8C"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "333CA73E3444D211"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3196584110C1640E"]
+			id: "4AC58ECACF584B2C"
+			rewards: [{
+				id: "0B8D00C4E2770F71"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [
+				{
+					id: "0A5E3E1720BEF191"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					id: "198F1156C1C71100"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+				{
+					id: "24168B77C46D4481"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+			]
+			title: "超临界移相器"
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["55F679596BF49CD2"]
+			id: "3196584110C1640E"
+			rewards: [{
+				id: "31DF116F21E40C11"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "72A92EF3F9A1E333"
+					item: "mekanism:pellet_polonium"
+					type: "item"
+				}
+				{
+					id: "4F3D9CED9ACBE135"
+					item: "mekanism:pellet_plutonium"
+					type: "item"
+				}
+			]
+			title: "靶丸"
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["740A27570E7743AD"]
+			id: "55F679596BF49CD2"
+			rewards: [{
+				id: "66964B542FF5494A"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [
+				{
+					id: "0FDA5110BBB40128"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "15FA0B57801FB77A"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "2A1ECC9259C834A5"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					id: "627BAAA69ED3E4AB"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			description: [""]
+			id: "740A27570E7743AD"
+			tasks: [{
+				id: "62CFC11A33CE308D"
+				title: "开始"
+				type: "checkmark"
+			}]
+			title: "开始"
+			x: -6.5d
+			y: -7.0d
+		}
+	]
+	title: "化学实验室"
+}
