@@ -121,6 +121,7 @@
 			dependencies: ["511C370E08307065"]
 			description: [""]
 			id: "7C3BFAE011CB495E"
+			subtitle: "OP!"
 			tasks: [{
 				id: "23A53E51E01A773D"
 				title: "开始"

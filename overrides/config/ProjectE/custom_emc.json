@@ -33,10 +33,6 @@
       "emc": 1
     },
     {
-      "item": "mekanism:pellet_polonium",
-      "emc": 0
-    },
-    {
       "item": "mekanism:dust_lithium",
       "emc": 0
     },
@@ -70,7 +66,7 @@
     },
     {
       "item": "#forge:pellets/polonium",
-      "emc": 32768
+      "emc": 0
     },
     {
       "item": "draconicevolution:chaos_shard",
